@@ -1,0 +1,16 @@
+build:
+    box: golang
+    steps:
+    - setup-go-workspace
+
+    - install-packages:
+        packages: portaudio19-dev
+
+    - glide-install
+
+    - golint:
+      exclude: vendor
+
+    - script:
+        name: go test
+        code: go test -v $(go list ./... | grep -v /vendor/)

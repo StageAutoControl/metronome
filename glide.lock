@@ -1,0 +1,14 @@
+hash: eacf5c98f5b2d3abf6ebb7e7201bffa87696a710bb1134df913fd10d0bd8fadf
+updated: 2017-04-19T08:34:59.097229706+02:00
+imports:
+- name: github.com/cryptix/wav
+  version: 844d399d120cec9249623f557ba69cf4d3bf8664
+- name: github.com/gordonklaus/portaudio
+  version: 2a038c93424fb36d026982db9fd365504a49f566
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/spf13/cobra
+  version: fcd0c5a1df88f5d6784cb4feead962c3f3d0b66c
+- name: github.com/spf13/pflag
+  version: 2300d0f8576fe575f71aaa5b9bbe4e1b0dc2eb51
+testImports: []
