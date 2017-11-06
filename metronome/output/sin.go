@@ -9,7 +9,7 @@ func GenerateSin(sampleRate, samples uint, freq float64) []float64 {
 	var phase float64
 
 	for i := range b {
-		b[i] = float64(math.Sin(2 * math.Pi * phase))
+		b[i] = 0.3 * float64(math.Sin(2*math.Pi*phase))
 		_, phase = math.Modf(phase + step)
 	}
 
