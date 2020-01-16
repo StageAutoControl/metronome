@@ -1,4 +1,0 @@
-package: github.com/StageAutoControl/metronome
-import:
-- package: github.com/cryptix/wav
-- package: github.com/spf13/cobra
